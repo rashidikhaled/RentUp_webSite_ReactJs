@@ -1,7 +1,13 @@
-import { useState } from "react";
+import "./App.css";
+import Header from "./components/common/Header/Header";
+import Pages from "./components/pages/Pages";
 
 function App() {
-  return <><h1>RentUp</h1></>;
+  return (
+    <>
+      <Pages />
+    </>
+  );
 }
 
 export default App;
