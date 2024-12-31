@@ -37,4 +37,23 @@ button {
 button i {
     margin-right: 5px;
 }
+.heading {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.heading h1 {
+    color: #2f3954;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 35px;
+}  
+.heading p {
+    color: #72809d;
+} 
+textarea,input {
+    border: none;
+    outline: none;
+    background-color: none;
+}
  
